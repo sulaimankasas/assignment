@@ -1,0 +1,176 @@
+<html>
+  <head>
+    <title>Photon by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+  </head>
+<body>
+  	<!-- Header -->
+    <div class="container">
+      <img class="img" src="https://cdn.discordapp.com/attachments/1078993081212358718/1089668516766040085/San_Francisco_from_the_Marin_Headlands_in_August_2022.jpg" alt="Snow" style="width:100%; height: 700px;">
+      <div class="centered">
+        <h3>Crimes in San Francisco -  Analyzing Changes in Crime Patterns over Time</h3>
+      </div>
+    </div>
+    
+    <br>
+    <table cellspacing="10">
+      <tr>
+        <td>
+       <div class="containerr">
+        <time class="date" datetime="2023-03-27">March 27, 2023</time>
+       </div>   
+      <p class="paragraph1">San Francisco is known for its picturesque location, culture, and diverse communities. However, 
+        it has also been known for its crime rates.<br>
+        The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, 
+        and its location.<br><br>
+        The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. 
+        The dataset is publicly available and is updated on a daily basis. 
+        It includes detailed information about the time, location, category, and description of each incident. <br><br></p>
+        </td>
+        <td>
+          <img class="imgg" src="https://cdn.discordapp.com/attachments/1078993081212358718/1089668517273542686/SanFranciscoNeighborhoods.jpg" style="width:700px; height: 500px;">
+        </td>
+      </tr>
+    </table>
+    <table cellspacing="10">
+      <tr>
+        <td>
+        <p class="paragraph2"> 
+          The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making.
+          We want to explore the crime data from the San Francisco Police Department from 2003 to 2018. 
+          We will examine how the different types of crimes have evolved over the years and how the geographical distribution of crime incidents has changed.
+          This make it easier to understand the trends and patterns in the data. <br><br>
+          
+          In particular, we will use time-series plots to visualize changes in the number of crimes over time, maps to visualize the spatial 
+          distribution of crimes in the city, and interactive visualizations to explore crime rates by category and year.
+          But the important question is: Why studying and visualizing Crime data set in San Francisco is very useful and important ? <br>
+          The Crime data set in San Francisco is related, relevant, and important to data visualization and data science for several reasons. <br><br>
+          
+          First, analyzing and visualizing crime data can provide valuable insights into the nature and patterns of crime in a city, which can inform policy decisions and resource allocation for law enforcement agencies. Data visualization can help identify high-crime areas, track crime trends over time, and reveal patterns or correlations between different types of crimes or demographic variables.<br><br>
+          Second, the San Francisco Crime data set is a large and complex data source with many variables, making it an excellent case study for data science techniques such as data cleaning, wrangling, and analysis. These skills are essential for working with real-world data sets and can be applied to a wide range of fields beyond law enforcement, from healthcare to finance.<br><br>
+          Finally, the Crime data set in San Francisco is an open data set, meaning that it is freely available for anyone to use and analyze. This makes it an ideal data set for students and researchers who want to practice their data science skills and contribute to the wider community </p>
+        </td>
+      </tr>
+    </table>
+
+    <br>
+    <table cellspacing="10">
+      <tr>
+        <td>
+          <iframe src="sul.html" height="500px" width="1000px"></iframe>
+        </td>
+        <td>
+        <h3 class="text_intro">Time-series of crime categories</h3>
+        <p class="paragraph2"> 
+          The first visualization we will do is a time-series plot that shows the trend of various crime categories in 
+          San Francisco over years.<br><br> We can use this plot to identify whether there has been any significant 
+          change in the overall crime rate or if any specific crime category has shown an increase or decrease in frequency. <br><br><br>
+           The output of this code is a time-series plot of the number of crimes in each category over the years in San Francisco.
+          The x-axis represents the years, and the y-axis represents the number of crimes in each category. Each category is represented by a
+          different line color, and the legend is displayed on the plot to indicate which color represents which category. 
+        </p>
+        </td>
+      </tr>
+    </table>
+
+    <table cellspacing="10">
+      <tr>
+        <td>
+        <p class="paragraph2"> 
+         
+          From the plot, we can see that the most frequent crime categories over the decade are Larceny/Theft and Non/Criminal.<br> 
+          Other crimes such as Assault, Vehicle Theft and Burglary are also frequent but have lower counts compared to Larceny/Theft and Non/Criminal. <br> <br> 
+          Interestingly, we can also see that some crime categories experienced a significant decrease over time, such as Prostitution, 
+          while other categories had an increase in crime over time, such as Drug/Narcotic.<br><br> 
+          Overall, this visualization gives us a clear overview of how the different crime categories have changed over the years in San Francisco.
+          
+        </p>
+        </td>
+      </tr>
+    </table>
+
+  
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <table cellspacing="10">
+      <tr>
+        <td>
+        <h3 class="text_intro">Map of crime locations</h3>
+        <p class="paragraph2"> 
+          The second visualization we will look at is a map of San Francisco that shows the locations of crimes reported in the past years. 
+          We will use the techniques we learned in Week 3 and 4 to plot the data on a map of San Francisco. The map will be interactive, 
+          allowing the user to filter the data by crime category and year.<br><br>
+          The output map of the previous code shows a choropleth map of San Francisco, where each district is colored based on the crime rate of the selected day (in this case, Sunday).  The plot provides an easy-to-understand visual representation of the crime rates in San Francisco, 
+          allowing for quick identification of high and low crime rate areas.<br><br> 
+        </p>
+        </td>
+        <td>
+          <iframe src="sul.html" height="500px" width="1200px"></iframe>
+        </td>
+      </tr>
+    </table>
+
+    <table cellspacing="10">
+      <tr>
+        <td>
+        
+        <p class="paragraph2"> 
+          <strong>Based on the map and analysis:</strong><br> 
+          Based on the choropleth map, the police district with the highest rate of DRUNKENNESS on Sundays appears 
+          to be the Tenderloin district, which is represented by the color purple on the map. The districts with the next highest
+           rates are the Mission and the Southern districts, which are represented by shades of blue. The remaining districts 
+           have lower rates of DRUNKENNESS on Sundays, as shown by the lighter shades of green and yellow.<br> <br> 
+          It is important to note that the data used to create the map is based on a randomly generated dataset, and may not accurately reflect actual crime rates in San Francisco. Additionally, the map only displays data for one specific day of the week (Sunday), and does not provide information on how crime rates may vary by time of day or other factors. Therefore, any analysis of DRUNKENNESS on Sundays based on this map should be taken with caution and not be considered definitive.
+          This analysis could be used to inform policing strategies, as well as efforts to address underlying social and economic issues that contribute to crime. For example, increased police presence in high-crime areas could help deter criminal activity, while initiatives aimed at reducing poverty and homelessness could also have a positive impact on crime rates.
+        </p>
+        </td>
+      </tr>
+    </table>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <table cellspacing="10">
+      <tr>
+        <td>
+          <iframe src="sul.html" height="500px" width="800px"></iframe>
+        </td>
+        <td>
+        <h3 class="text_intro">Interactive visualization of crime rate by year and category</h3>
+        <p class="paragraph2"> 
+          The third visualization we will look at is an interactive visualization of the crime rate by year and category.<br> <br> 
+          We will use Bokeh to create an interactive plot that will allow us to select a crime category and see how the rate of that category changes over the years.<br>
+          The plot will also allow us to select multiple categories and compare their trends.
+        </p>
+        </td>
+       
+      </tr>
+    </table>
+
+    <table cellspacing="10">
+      <tr>
+        <td>
+        
+        <p class="paragraph2"> 
+          From the plot, we can see that most crime categories have shown a decreasing trend over the past decade, 
+          with a few exceptions.<br>  We can also see that some categories, such as "Burglary" and "Motor Vehicle Theft", 
+          show a seasonal trend, with higher rates during certain months.<br>  The plot also allows us to compare the trends 
+          of different categories, and we can see that some categories, such as "Larceny/Theft" and "Vandalism", 
+          show similar trends over the years.
+        </p>
+        </td>
+      </tr>
+    </table>
+    <footer>
+      <p>&copy; 2023 Crimes in San Francisco</p>
+    </footer>
+</body>
+</html>

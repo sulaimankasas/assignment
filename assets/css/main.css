@@ -1,5 +1,83 @@
-.container {
-    max-width: none;
-    margin-left: 0;
-    margin-right: 0;
+
+  body{
+	background-color: #f2f2f2; /* set the background color to a light gray */
+	border: 10px solid #ccc; /* add a border with a medium gray color */
+	padding: 30px; /* add padding of 20 pixels to the top, right, bottom, and left */
+	box-sizing: border-box; /* include the border and padding in the width and height of the element */
   }
+
+/* Container holding the image and the text */
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+	
+  }
+
+.date{
+	color: rgb(0, 0, 0);
+	display: block; /* set the display property to block to make the element take up the full width of its container */
+	margin-left: 0; /* set the left margin to 0 to align the element to the left */
+}
+.containerr {
+	text-align: left;
+}
+
+  /* Centered text */
+  .centered {
+	position: absolute;
+	top:80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 32px;
+  }
+
+
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text_intro {
+	font-size: 30px;
+	margin-left: 0px; 
+	text-align: start;
+	color: rgb(0, 0, 0);
+  }
+  
+  .image {
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-left: 20px;
+  }
+  
+  .imgg {
+	float: right;
+	margin: 5px;
+  }
+
+  .paragraph1 {
+	text-align: justify;
+	font-size: 27px;
+	color: black;
+  }
+
+  .paragraph1::first-letter {
+	font-size: 220%;
+  }
+
+  .paragraph2 {
+	text-align: justify;
+	font-size: 27px;
+	color: black;
+  }
+
+  footer {
+	border-top: 1px solid #0c0b0b;
+	padding: 10px;
+	text-align: center;
+	color: #0c0b0b;
+}
